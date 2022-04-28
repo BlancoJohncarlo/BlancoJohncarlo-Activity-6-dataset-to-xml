@@ -1,1 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE student-alcohol-consumption [
+	<!ELEMENT student-alcohol-consumption (student)>
+	<!ELEMENT student (school, sex, age, address, famsize, pstatus, medu, fedu, mjob, fjob)>
+
+	<!ELEMENT student (#PCDATA)>
+	<!ELEMENT school (#PCDATA)>
+	<!ELEMENT sex (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT famsize (#PCDATA)>
+	<!ELEMENT pstatus (#PCDATA)>
+	<!ELEMENT medu (#PCDATA)>
+	<!ELEMENT fedu (#PCDATA)>
+	<!ELEMENT mjob (#PCDATA)>
+	<!ELEMENT fjob (#PCDATA)>
+
+	<!ATTLIST student row CDATA #REQUIRED>
+
+
+]>
+
+<student-alcohol-consumption>
+	<student row="1">
+		<school>GP</school>
+		<sex>F</sex>
+		<age>18</age>
+		<address>U</address>
+		<famsize>GT3</famsize>
+		<pstatus>A</pstatus>
+		<medu>4</medu>
+		<fedu>4</fedu>
+		<mjob>at_home</mjob>
+		<fjob>teacher</fjob>
+	</student>
+	<student row="2">
+		<school>GP</school>
+		<sex>F</sex>
+		<age>17</age>
+		<address>U</address>
+		<famsize>GT3</famsize>
+		<pstatus>T</pstatus>
+		<medu>1</medu>
+		<fedu>1</fedu>
+		<mjob>at_home</mjob>
+		<fjob>other</fjob>
+	</student>
+	<student row="3">
+		<school>GP</school>
+		<sex>F</sex>
+		<age>15</age>
+		<address>U</address>
+		<famsize>LE3</famsize>
+		<pstatus>T</pstatus>
+		<medu>1</medu>
+		<fedu>1</fedu>
+		<mjob>at_home</mjob>
+		<fjob>other</fjob>
+	</student>
+	<student row="4">
+		<school>GP</school>
+		<sex>F</sex>
+		<age>15</age>
+		<address>U</address>
+		<famsize>GT3</famsize>
+		<pstatus>T</pstatus>
+		<medu>4</medu>
+		<fedu>2</fedu>
+		<mjob>health</mjob>
+		<fjob>services</fjob>
+	</student>
+	<student row="5">
+		<school>GP</school>
+		<sex>F</sex>
+		<age>16</age>
+		<address>U</address>
+		<famsize>GT3</famsize>
+		<pstatus>T</pstatus>
+		<medu>3</medu>
+		<fedu>3</fedu>
+		<mjob>other</mjob>
+		<fjob>other</fjob>
+	</student>
+	<student row="6">
+		<school>GP</school>
+		<sex>M</sex>
+		<age>16</age>
+		<address>U</address>
+		<famsize>LE3</famsize>
+		<pstatus>T</pstatus>
+		<medu>4</medu>
+		<fedu>3</fedu>
+		<mjob>services</mjob>
+		<fjob>other</fjob>
+	</student>
+	<student row="7">
+		<school>GP</school>
+		<sex>M</sex>
+		<age>16</age>
+		<address>U</address>
+		<famsize>LE3</famsize>
+		<pstatus>T</pstatus>
+		<medu>2</medu>
+		<fedu>2</fedu>
+		<mjob>other</mjob>
+		<fjob>other</fjob>
+	</student>
+	<student row="8">
+		<school>GP</school>
+		<sex>F</sex>
+		<age>17</age>
+		<address>U</address>
+		<famsize>GT3</famsize>
+		<pstatus>A</pstatus>
+		<medu>4</medu>
+		<fedu>4</fedu>
+		<mjob>other</mjob>
+		<fjob>teacher</fjob>
+	</student>
+	<student row="9">
+		<school>GP</school>
+		<sex>M</sex>
+		<age>15</age>
+		<address>U</address>
+		<famsize>LE3</famsize>
+		<pstatus>A</pstatus>
+		<medu>3</medu>
+		<fedu>2</fedu>
+		<mjob>services</mjob>
+		<fjob>other</fjob>
+	</student>
+	<student row="10">
+		<school>GP</school>
+		<sex>M</sex>
+		<age>15</age>
+		<address>U</address>
+		<famsize>GT3</famsize>
+		<pstatus>T</pstatus>
+		<medu>3</medu>
+		<fedu>4</fedu>
+		<mjob>other</mjob>
+		<fjob>other</fjob>
+	</student>
+
+</student-alcohol-consumption>
